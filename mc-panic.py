@@ -61,7 +61,7 @@ except configparser.NoSectionError:
     with open("config.ini", 'w') as output_file:
         parser.write(output_file)
 
-    print("config.ini has been created. Please re-run this program to start begin panicking.")
+    print("config.ini has been created. Please re-run this program to begin panicking.")
     exit(0)
 
 
