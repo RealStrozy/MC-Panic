@@ -92,5 +92,5 @@ if command_sp == "2":
 if command_sp == "3":
     ssh_command(f"screen -S {server_name} -p 0 -X stuff 'gamemode s @a ^M'")
 
-if command_sp == "C"
+if command_sp == "C":
     exit(0)
