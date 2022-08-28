@@ -74,7 +74,7 @@ command_sp = input(
 )
 
 # Error checking for command
-commands_list = ["1", "2", "3"]
+commands_list = ["1", "2", "3", "C"]
 if command_sp not in commands_list:
     print("Command error")
     print(ssh_command('pwd'))
@@ -91,3 +91,6 @@ if command_sp == "2":
 
 if command_sp == "3":
     ssh_command(f"screen -S {server_name} -p 0 -X stuff 'gamemode s @a ^M'")
+
+if command_sp == "C"
+    exit(0)
