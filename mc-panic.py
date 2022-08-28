@@ -87,7 +87,7 @@ if command_sp == "1":
 
 if command_sp == "2":
     # noinspection PyUnboundLocalVariable
-    ssh_command(f"screen -S {server_name} -p 0 -X stuff 'gamemode s @a ^M kill @a ^M gamemode c @a ^M'")
+    ssh_command(f"screen -S {server_name} -p 0 -X stuff 'gamemode s @a ^M kill @a ^M'")
 
 if command_sp == "3":
     ssh_command(f"screen -S {server_name} -p 0 -X stuff 'gamemode s @a ^M'")
