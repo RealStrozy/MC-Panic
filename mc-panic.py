@@ -70,7 +70,7 @@ client.load_system_host_keys()
 
 print("MC-Panic! Stop everything! Now!")
 command_sp = input(
-    "[1] Stop server \n[2] Kill all players \n[3] Set all payers to survival mode\n"
+    "[1] Stop server \n[2] Kill all players \n[3] Set all payers to survival mode\n[C] Close the program"
 )
 
 # Error checking for command
